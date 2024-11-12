@@ -64,7 +64,7 @@ const WhatsAppLinkGenerator = () => {
 
       {processedNumbers.length > 0 && (
         <div className="mt-6">
-          <h3 className="font-medium mb-4 text-black font-semibold">Números Processados:</h3>
+          <h3 className="mb-4 text-black font-semibold">Números Processados:</h3>
           <div className="space-y-3">
             {processedNumbers.map((item, index) => (
               <div 
