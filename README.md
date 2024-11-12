@@ -1,37 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Gerador de Links do WhatsApp
 
-## Getting Started
+Uma aplicação web simples para converter números de telefone em links diretos para o WhatsApp.
 
-First, run the development server:
+## 🚀 Funcionalidades
+
+- Processa múltiplos números de telefone de uma vez
+- Suporta diferentes formatos de entrada:
+  - (11) 99999-9999
+  - 11999999999
+  - 999999999
+  - +55 11 99999-9999
+- Adiciona automaticamente código do país (55) e DDD quando necessário
+- Gera links diretos para iniciar conversas no WhatsApp
+- Interface limpa e responsiva
+- Validação visual de números
+
+## 🛠️ Tecnologias Utilizadas
+
+- Next.js 13+
+- React
+- Tailwind CSS
+
+## 📦 Instalação
 
 ```bash
+# Clone o repositório
+git clone https://github.com/erick-nunes/whatsapp-link-generator.git
+
+# Entre na pasta do projeto
+cd whatsapp-link-generator
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O projeto estará rodando em `http://localhost:3000`
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 💡 Como Usar
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Cole os números de telefone na área de texto (um por linha)
+2. Clique em "Processar Números"
+3. Clique nos links gerados para abrir o WhatsApp
 
-## Learn More
+## 📝 Licença
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# flip-zap
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
